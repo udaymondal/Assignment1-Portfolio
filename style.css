@@ -60,9 +60,87 @@ p{
 }
 .work{
     clear: both;
+    /*
     background-image: url("./shapes/Group_33094_1.png");
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    */
     margin-top: 100px;
     background-size: contain;
     background-position: center;
+    position: relative;
 }
+.work h2{
+    text-align: right;
+}
+.work img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    text-align: right;
+    color: white;
+}
+.text h2{
+    right: 50%;
+}
+footer p,h5{
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+}
+.footerimg img{
+    width: 50px;
+    margin: auto;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 75%;
+    background-color: white;
+
+}
+.marginS3{
+    margin-left: 90px;
+}
+
+.experience-area{
+    background-image: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+.footerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
