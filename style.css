@@ -71,25 +71,16 @@ p{
     background-position: center;
     position: relative;
 }
-.work h2{
-    text-align: right;
-}
+
 .work img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-.text{
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    text-align: right;
-    color: white;
-}
-.text h2{
-    right: 50%;
-}
+
+
+    
 footer p,h5{
     clear: both;
     margin-top: 50px;
@@ -144,3 +135,8 @@ section{
     width: 15%;
 }
 
+.text{
+    top: 50%;
+    right: 50%;
+
+}
